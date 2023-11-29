@@ -66,4 +66,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // Jetpackで検索してこいつ持ってくると導入できる（このあとSyncする）
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.33.2-alpha")
 }
